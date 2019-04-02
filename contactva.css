@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body{
+  height: 100%;
+  width:100%;
+  font-family:'Poppins' , sans-serif;
+  color:#222;
+  box-sizing: border-box;
+  background-color:#fffef4;
+}
+.form-group
+{
+  background-image: url("https://i.pinimg.com/originals/ed/73/d0/ed73d0e1fcdec6bbfbfcd200883db510.png");
+    padding:0.8rem;
+    margin: 4% auto;
+    box-shadow: -2px -2px 12px #3f3f3f;
+    border-radius:0.2 rem;
+    height:80%;
+    width:60%;
+    overflow: hidden;
+
+}
+.submitva
+{
+  outline:none;
+  margin: none;
+  border:none;
+  border-radius:6px;
+  background-color: #3f3f3f;
+  width: 5rem;
+  color:white;
+  height:2.5rem;
+  -webkit-transition-duration: 0.5s;
+  backface-visibility: visible;
+  scroll-behavior: smooth;
+
+}
+.submitva:hover{
+  outline:none;
+  margin:none;
+  border:none;
+  border-radius:6px;
+  background-color:orangered;
+  color:black;
+  width:6rem;
+  cursor:pointer;
+}
+.submitva:active
+{
+  background-color:greenyellow;
+  color:black;
+
+}
+.label
+{
+  color:white;
+}
+textarea{
+    height:15rem;
+    resize: vertical;
+}
+btn btn-secondary.submit
+{
+outline:none;
+background-color:blue;
+color:white;
+}
+
+
+@media (max-width: 920px) {
+  .form-group{
+      height:90%;}
+     
+      }
+      @media (max-width: 700px) {
+     ::placeholder{
+       font-size: 0.7rem;
+     }
+            }
+            
+
+  
+
+      
+  
+  
+
+   
+
+

@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html,body{
+  height: 100%;
+  width:100%;
+  font-family:'Poppins' , sans-serif;
+  color:#222;
+  box-sizing: border-box;
+ 
+ 
+}
+.form-group
+{
+  background-image: url('https://img.freepik.com/free-vector/colorful-paint-splash-background_1048-3024.jpg?size=338&ext=jpg');
+    padding:0.8rem;
+    margin: 4% auto;
+    box-shadow: -2px -2px 12px #3f3f3f;
+    border-radius:0.2 rem;
+    height:80%;
+    width:60%;
+   
+}
+.form-control
+{
+    
+    box-shadow: 1px 1px 10px #3d3d3d;
+}
+.submitva
+{
+  outline:none;
+  margin: none;
+  border:none;
+  border-radius:6px;
+  background-color: #3f3f3f;
+  width: 5rem;
+  color:white;
+  height:2.5rem;
+  -webkit-transition-duration: 0.5s;
+  backface-visibility: visible;
+  scroll-behavior: smooth;
+}
+.submitva:hover{
+    outline:none;
+    margin:none;
+    border:none;
+    border-radius:6px;
+    background-color:black;
+    color:whitesmoke;
+    width:6rem;
+    cursor:pointer;
+  }
+.label
+{
+  color:#222;
+  font-size:1rem;
+}
+@media (max-width: 700px) {
+    ::placeholder{
+      font-size: 0.7rem;
+    }
+           }
